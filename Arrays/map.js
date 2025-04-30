@@ -16,20 +16,6 @@ const mapArray2 = () => {
   console.log(doubledAndSort);
 }
 /* Primeiro eu mapeio todos os numeros do array, logo após eu aplico o sort, ordenando por ordem crescente.*/
-const Filtrar = () => { 
-  const numerosMaiores = [1,6,8,2,4,5]
-  const numerosFiltrados = numerosMaiores.filter(num => num > 5)
-  console.log(numerosFiltrados)
-}
-/* O filter percorre o array e retorna um novo array com os elementos 
-que atendem à condição especificada na função de callback. */
 
-// 🧩 Desafio 1 – Soma total de um carrinho
-const carrinho = [
-  {
-    nome: "Teclado", preco: 150,
-    nome: "Mouse", preco: 100,
-    nome: "Monitor", preco: 200,
-  }
-]
-const totalCarrinho = carrinho.reduce((acc,item) => acc + item.preco, 0)
+
+
